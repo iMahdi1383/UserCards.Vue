@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/apollo": "^5.0.0-alpha.6",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18",
     "nuxt": "^3.6.2"
   }
