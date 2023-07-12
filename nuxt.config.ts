@@ -13,9 +13,22 @@ export default defineNuxtConfig({
 
   // Nuxt Image
   image: {
-    domains: ['jsonplaceholder.ir'],
+    domains: ['jsonplaceholder.ir', 'unsplash.com'],
   },
 
   // Nuxt Devtools
   devtools: { enabled: true },
+
+  tailwindcss: {
+    config: {
+      theme: {
+        extend: {
+          backgroundImage: {
+            random:
+              "url('https://source.unsplash.com/random/1366x768/?gradient,light,blured,nature,fruits')",
+          },
+        },
+      },
+    },
+  },
 });
